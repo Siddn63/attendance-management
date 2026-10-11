@@ -1,0 +1,11 @@
+{
+  "name": "attendance-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "start:backend": "npm --prefix backend start",
+    "seed:admin": "npm --prefix backend run seed"
+  }
+}
